@@ -14,6 +14,6 @@ job('NodeJS example') {
     }
     steps {
         shell("npm install")
-        shell("docker compose up -d")
+        shell("docker-compose up -d")
     }
 }
